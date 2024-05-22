@@ -8,12 +8,12 @@ body {
 }
 
 .first, .second, .third, .fourth {
-    padding: 10px;
     border: 2px solid black;
 }
 
 /* This is the first box */
 .first {
+    padding: 8px;
     display: flex;
     flex-direction: column;
     background-color: #f4f4f4;
@@ -31,7 +31,7 @@ body {
     margin-left: 80px;
 }
 
-.links, .image {
+.links, .main-image {
     font-size: 18px;
     margin-right: 80px;
 }
@@ -43,6 +43,38 @@ body {
 }
 
 /* This is the second box */
+.second {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+
+.second-head, .second-tail, .subtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
+.img-holder {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.sub {
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+
 
 
 
