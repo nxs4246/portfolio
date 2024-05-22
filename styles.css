@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.first, .second, .third, .fourth {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* This is the first box */
+.first {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+
+.first-head, .first-tail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo, .description {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.links, .image {
+    font-size: 18px;
+    margin-right: 80px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+/* This is the second box */
+
+
+
+
+
