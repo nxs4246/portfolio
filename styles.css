@@ -40,7 +40,7 @@ body {
     margin-top: 80px;
     margin-bottom: 80px;
     gap: 80px;
-    padding: 1rem;
+    
     box-sizing: border-box;
     width: 100%;
 }
@@ -235,12 +235,11 @@ body {
     .description,
     .main-image {
         width: 100%;
-        max-width: calc(100% - 40px); /* Adjust as needed */
+        max-width: calc(100% - 25px); /* Adjust as needed */
     }
 
     .main-image img {
-        max-width: 100%; /* Ensures the image resizes within its container */
-        height: auto; /* Allows the image to maintain its aspect ratio */
-        margin-bottom: 20px; /* Optional: Add some space between image and description */
+        max-width: 100%; 
+        height: auto; 
     }
 }
