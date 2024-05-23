@@ -23,7 +23,7 @@ body {
 .first-head {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap; 
     gap: 25px;
     max-width: 1080px;
@@ -45,12 +45,6 @@ body {
     width: 100%;
 }
 
-.logo {
-    font-size: 18px;
-    font-weight: bold;
-    padding-top: 10px;
-}
-
 .links {
     font-size: 18px;
     font-weight: lighter;
@@ -61,6 +55,7 @@ body {
     padding-top: 10px;
     min-width: 250px;
     box-sizing: border-box;
+    text-decoration: underline;
 }
 
 .description {    
@@ -227,4 +222,25 @@ body {
     font-weight: lighter;
     background-color: #1f2937;
     color: #f9faf8
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .first-tail {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .description,
+    .main-image {
+        width: 100%;
+        max-width: calc(100% - 40px); /* Adjust as needed */
+    }
+
+    .main-image img {
+        max-width: 100%; /* Ensures the image resizes within its container */
+        height: auto; /* Allows the image to maintain its aspect ratio */
+        margin-bottom: 20px; /* Optional: Add some space between image and description */
+    }
 }
