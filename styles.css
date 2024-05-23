@@ -11,11 +11,12 @@ body {
 
 /* This is the first box */
 .first {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    color: #f9faf8
+    color: #f9faf8;
+    align-items: center;
 }
 
 .first-head {
@@ -23,27 +24,26 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap; 
-    padding-left: 100px;
-    padding-right: 100px;
+    gap: 25px;
+    max-width: 1080px;
+    width: 100%;
 }
 
 .first-tail {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap; 
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 100px;
-    margin-bottom: 5%;
-    gap: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 80px;
+    padding: 20px;
 }
 
 .logo {
     font-size: 18px;
     font-weight: bold;
     padding-top: 10px;
-    padding-right: 25px;
 }
 
 .links {
@@ -54,12 +54,15 @@ body {
     gap: 25px;
     flex-wrap: wrap;
     padding-top: 10px;
+    min-width: 250px;
 }
 
 .description {    
+    display: flex;
+    flex-direction: column;
     width: 100%;
     max-width: 500px;
-    flex: 1;
+    justify-content: center;
 }
 
 #welcome {
@@ -75,15 +78,15 @@ body {
 }
 
 .main-image {
-    width: 100%;
+    width: auto;
     max-width: 500px;
-    background-color: #e5e7eb;
+    height: auto;
     color: #1f2937;
 }
 
+
 /* This is the second box */
 .second {
-    padding: 30px;
     display: flex;
     flex-direction: column;
     background-color: #f9faf8;
@@ -93,6 +96,7 @@ body {
 .second-head {
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 }
 
 .second-tail {
@@ -100,6 +104,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 10px;
 }
 
 .img-holder {
@@ -128,7 +133,7 @@ body {
 
 /* This is the third box */
 .third {
-    padding: 25px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
@@ -156,13 +161,17 @@ body {
 
 /* This is the fourth box */
 .fourth {
-    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     flex-direction: column;
     background-color: #f9faf8;
+    align-items: center;
 }
 
 .content {
+    max-width: 1080px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -172,8 +181,6 @@ body {
     border-radius: 10px;
     flex-wrap: wrap;
     margin: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
     text-align: center;
 }
 
@@ -188,8 +195,8 @@ body {
     border: 2px solid #f9faf8;
     border-radius: 10px;
     padding: 8px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #f9faf8;
     margin: 25px;
 }
