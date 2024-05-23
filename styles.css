@@ -60,14 +60,21 @@ body {
 .description {    
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: auto;
     max-width: 500px;
+    height: auto;
     justify-content: center;
+    flex: 1;
+    align-items: center;
 }
 
 #welcome {
     font-size: 48px;
     font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 #msg {
@@ -75,6 +82,8 @@ body {
     font-weight: lighter;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .main-image {
