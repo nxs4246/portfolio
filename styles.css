@@ -40,7 +40,6 @@ body {
     margin-top: 80px;
     margin-bottom: 80px;
     gap: 80px;
-    
     box-sizing: border-box;
     width: 100%;
 }
@@ -82,7 +81,7 @@ body {
 #msg {
     font-size: 1rem;
     font-weight: lighter;
-    padding: 25px;
+    padding: 20px;
     width: 100%;
     box-sizing: border-box;
     text-align: center;
@@ -90,12 +89,14 @@ body {
 }
 
 .main-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    color: #1f2937;
-    flex: 1;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
+    background-color: #e0e0e0;
+    border: 3px solid #3882f6;
+    border-radius: 50%;
 }
 
 /* This is the second box */
@@ -222,24 +223,4 @@ body {
     font-weight: lighter;
     background-color: #1f2937;
     color: #f9faf8
-}
-
-/* Media Query for smaller screens */
-@media screen and (max-width: 768px) {
-    .first-tail {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .description,
-    .main-image {
-        width: 100%;
-        max-width: calc(100% - 25px); /* Adjust as needed */
-    }
-
-    .main-image img {
-        max-width: 100%; 
-        height: auto; 
-    }
 }
