@@ -17,6 +17,7 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .first-head {
@@ -27,17 +28,21 @@ body {
     gap: 25px;
     max-width: 1080px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .first-tail {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap; 
     margin-top: 80px;
     margin-bottom: 80px;
     gap: 80px;
-    padding: 20px;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .logo {
@@ -55,44 +60,48 @@ body {
     flex-wrap: wrap;
     padding-top: 10px;
     min-width: 250px;
+    box-sizing: border-box;
 }
 
 .description {    
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     max-width: 500px;
     height: auto;
     justify-content: center;
     flex: 1;
     align-items: center;
+    box-sizing: border-box;
 }
 
 #welcome {
-    font-size: 48px;
+    font-size: 2rem;
     font-weight: bolder;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 25px ;
     width: 100%; 
     box-sizing: border-box;
+    text-align: center;
 }
 
 #msg {
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: lighter;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 25px;
     width: 100%;
     box-sizing: border-box;
+    text-align: center;
+    height: auto;
 }
 
 .main-image {
-    width: auto;
-    max-width: 500px;
+    width: 100%;
+    max-width: 400px;
     height: auto;
     color: #1f2937;
+    flex: 1;
+    box-sizing: border-box;
 }
-
 
 /* This is the second box */
 .second {
