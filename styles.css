@@ -51,8 +51,7 @@ body {
     flex-direction: row;
     gap: 28px;
     flex-wrap: wrap;
-    padding-top: 10px;
-    min-width: 250px;
+    padding-top: 5px;
     box-sizing: border-box;
     text-decoration: none;
     cursor: pointer;
@@ -113,13 +112,14 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #f9faf8;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .second-head {
     display: flex;
     justify-content: center;
-    padding-top: 10px;
 }
 
 .second-tail {
@@ -154,34 +154,38 @@ body {
     text-align: center;
 }
 
+.see-more {
+    padding: 12px;
+    background-color: #e5e7eb;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 /* This is the third box */
 .third {
-    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
     align-items: center;
 }
 
-#quote {
-    padding-top: 25px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+#resume-container {
+    max-width: 1080px;
     width: 100%;
-    max-width: 650px;
-    font-size: 24px;
+    height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    margin: 25px;
+    padding: 20px;
     text-align: center;
-    flex: 1 1 auto;
-}
-
-#writer {
-    padding: 15px;
-    width: 100%;
-    max-width: 650px;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: right;
 }
 
 /* This is the fourth box */
@@ -203,7 +207,7 @@ body {
     justify-content: center;
     background-color: #3882f6;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     flex-wrap: wrap;
     margin: 25px;
     text-align: center;
@@ -228,7 +232,7 @@ body {
 
 /* This is the footer box */
 .footer {
-    padding: 20px;
+    padding: 16px;
     text-align: center;
     font-size: 14px;
     font-weight: lighter;
