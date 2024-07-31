@@ -78,7 +78,7 @@ body {
     text-align: center;
 }
 
-#msg {
+.msg {
     font-size: 1rem;
     font-weight: lighter;
     padding: 20px;
@@ -145,6 +145,8 @@ body {
     background-color: #e0e0e0;
     border: 2px solid #3882f6;
     border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .sub {
