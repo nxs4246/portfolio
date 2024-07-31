@@ -37,11 +37,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     gap: 80px;
     box-sizing: border-box;
     width: 100%;
+    padding: 20px;
 }
 
 .links {
@@ -136,22 +137,60 @@ a:visited {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
 .project-container {
     display: flex;
     flex-direction: row;
-    max-width: 1080px;
-    width: 100%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
 .text-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 20px;
-    font-size: 18px;
+    width: 470px;
+}
+
+.text-holder-title {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.text-holder-desc {
+    font-size: 17px;
+    padding: 5px;
+}
+
+.tech-stack {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px;
+}
+
+.tech-stack-item {
+    padding: 10px;
+    background-color: #e5e7eb;
+    border-radius: 4px;
+}
+
+.alt {
+    background-color: white;
+}
+
+.project-demo {
+    margin: 5px;
+    padding: 10px;
+    background-color: #1c70cb;
+    color: white;
+    border-radius: 4px;
 }
 
 .img-holder {
@@ -159,8 +198,7 @@ a:visited {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    width: 100%;
-    max-width: 200px;
+    width: 200px;
 }
 
 .image {
@@ -290,4 +328,16 @@ a:visited {
     font-weight: lighter;
     background-color: #1f2937;
     color: #f9faf8
+}
+
+@media(max-width: 800px) {
+    .text-holder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+    }
 }
