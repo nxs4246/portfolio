@@ -57,6 +57,12 @@ body {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
 .description {    
     display: flex;
     flex-direction: column;
@@ -207,7 +213,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #3882f6;
+    background-color: #1c70cb;
     padding: 20px;
     border-radius: 8px;
     flex-wrap: wrap;
@@ -230,6 +236,7 @@ body {
     padding-right: 20px;
     color: #f9faf8;
     margin: 25px;
+    cursor: pointer;
 }
 
 /* This is the footer box */
